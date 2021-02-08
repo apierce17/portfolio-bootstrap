@@ -1,0 +1,50 @@
+:root {
+    --dark: #222222;
+    
+}
+
+body {
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+#webimg {
+    padding-bottom: 15%;
+}
+
+#work {
+    padding-top: 25px;
+}
+
+#abouttext {
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+#work p {
+    border-radius: 10px;
+    padding: 5px;
+    background-color:white;
+}
+
+#about {
+    padding-bottom: 75px;
+}
